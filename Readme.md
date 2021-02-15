@@ -348,7 +348,9 @@ export default function App() {
   
   return (
     <View style={styles.container}>
+      <Text>{myData.createdBy}</Text>
       <Text>{myData.message}</Text>
+      <Text>{myData.location}</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -363,6 +365,7 @@ const styles = StyleSheet.create({
   },
 });
 
+
 ```
 
 Now run your app 
@@ -371,6 +374,6 @@ Now run your app
 expo start ios 
 ```
 
-
+![](./instruction-assets/img13.png)
 
 
